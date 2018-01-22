@@ -32,7 +32,7 @@ public class Solution {
     private static void write(List lines, String outFile) throws IOException {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(outFile))) {
             for (Object o : lines) {
-                writer.write(String.valueOf(o) + "\n");
+                writer.write(String.valueOf(o) + "\r\n");
             }
             writer.flush();
         }
