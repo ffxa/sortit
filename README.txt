@@ -28,8 +28,8 @@
  Решение на Java
  В консоли в папке проекта где лежит файл pom.xml выполнить следующие 2 команды:
        win/unix: mvn package
-       win: mvn exec:java -D"exec.mainClass"="Solution" -D"exec.args"="arg1 arg2 arg3 arg4"
-       unix: mvn exec:java -Dexec.mainClass="Solution" -Dexec.args="arg1 arg2 arg3 arg4"
+       win - mvn exec:java -D"exec.mainClass"="Solution" -D"exec.args"="arg1 arg2 arg3 arg4"
+       unix - mvn exec:java -Dexec.mainClass="Solution" -Dexec.args="arg1 arg2 arg3 arg4"
        
        arg1 - путь к входному файлу
        arg2 - путь к выходному файлу
