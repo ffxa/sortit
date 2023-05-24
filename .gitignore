@@ -1,0 +1,57 @@
+# Main
+*~
+*.lock
+*.swp
+*.DS_Store
+*.log
+*.tar
+*.zip
+Thumbs.db
+
+# old skool SVN
+.svn/
+
+# Maven
+target/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Eclipse
+.classpath
+.project
+.settings
+.metadata/
+.factorypath
+
+# Idea
+*.iml
+.idea
+atlassian-ide-plugin.xml
+
+#MergeTool
+*.orig
+*.log.*
+
+#Servers
+Servers/
+server/cmj/build.bat
+
+home
+
+#NetBeans
+nb-configuration.xml
+nbactions.xml
+
+# CMJ
+_local/
+/server/cmj/x-*.cmd
+
+#JRebel
+rebel.xml
+
+# Other
+*.merge_file_*
